@@ -1,0 +1,26 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.0'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.6.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+    implementation 'com.beust:klaxon:5.5'
+    implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.13.0'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.0'
+    implementation 'com.h2database:h2:1.4.200'
+    implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
+    implementation 'org.jetbrains.exposed:exposed-core:0.36.1'
+    implementation 'org.jetbrains.exposed:exposed-dao:0.36.1'
+    implementation 'org.jetbrains.exposed:exposed-jdbc:0.36.1'
+    implementation 'io.github.microutils:kotlin-logging-jvm:2.0.11'
+    implementation 'org.redundent:kotlin-xml-builder:1.7.4'
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.6'
+}

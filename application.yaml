@@ -1,0 +1,8 @@
+fth:
+  planes:
+    - name: OK-AHT
+      location: Prague
+    - name: OO-BKB
+      location: Brussels
+    - name: CU-V1005
+      location: Havana
